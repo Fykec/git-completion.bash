@@ -18,3 +18,14 @@ if [ -f /path/to/git-completion.bash ]; then
     . /path/to/git-completion.bash
 fi
 ````
+
+
+# Zsh compatibility 
+
+Common error: "missing compdef"
+
+````bash
+autoload -U compinstall && compinstall
+````
+
+http://superuser.com/questions/320207/where-is-my-zsh-getting-its-git-completion-settings
